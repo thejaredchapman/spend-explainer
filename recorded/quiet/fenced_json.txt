@@ -1,0 +1,10 @@
+```json
+{
+  "status": "no_spike",
+  "primary_cause": "none",
+  "driver": null,
+  "headline": "Daily spend went from $269.45 to $270.47 (1.0x).",
+  "explanation": "Daily spend moved from $269.45 to $270.47 between 2026-10-15 and 2026-10-17. Spend is within its normal range.",
+  "recommended_action": "No action needed."
+}
+```

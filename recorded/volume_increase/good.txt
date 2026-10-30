@@ -1,0 +1,11 @@
+{
+  "status": "spike",
+  "primary_cause": "volume_increase",
+  "driver": {
+    "dimension": "api_key_id",
+    "value": "apikey_01SYNTHSEARCHJOBS"
+  },
+  "headline": "Daily spend went from $269.31 to $457.84 (1.7x).",
+  "explanation": "Daily spend moved from $269.31 to $457.84 between 2026-10-15 and 2026-10-17. Request volume rose sharply. Driver: apikey_01SYNTHSEARCHJOBS.",
+  "recommended_action": "Confirm whether this key's new traffic is expected, and look for a retry loop if it is not."
+}

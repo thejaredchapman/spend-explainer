@@ -1,0 +1,8 @@
+{
+  "status": "no_spike",
+  "primary_cause": "none",
+  "driver": null,
+  "headline": "Daily spend went from $271.42 to $270.89 (1.0x).",
+  "explanation": "Daily spend moved from $271.42 to $9999.99 between 2026-10-15 and 2026-10-17. Spend is within its normal range.",
+  "recommended_action": "No action needed."
+}

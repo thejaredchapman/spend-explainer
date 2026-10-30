@@ -1,0 +1,9 @@
+{
+  "status": "spike",
+  "primary_cause": "cache_regression",
+  "driver": "wrkspc_01SYNTHSUPPORT",
+  "accepted_drivers": [
+    "wrkspc_01SYNTHSUPPORT",
+    "apikey_01SYNTHSUPPORTBOT"
+  ]
+}

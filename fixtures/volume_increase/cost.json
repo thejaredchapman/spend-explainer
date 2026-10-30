@@ -1,0 +1,1303 @@
+{
+ "data": [
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "11147.975000",
+    "currency": "USD",
+    "list_amount": "11147.975000",
+    "requests": 20455
+   }
+  },
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6615.087500",
+    "currency": "USD",
+    "list_amount": "6615.087500",
+    "requests": 30590
+   }
+  },
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1800.065000",
+    "currency": "USD",
+    "list_amount": "1800.065000",
+    "requests": 8324
+   }
+  },
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7518.000000",
+    "currency": "USD",
+    "list_amount": "7518.000000",
+    "requests": 1432
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "11342.540000",
+    "currency": "USD",
+    "list_amount": "11342.540000",
+    "requests": 20812
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6326.826250",
+    "currency": "USD",
+    "list_amount": "6326.826250",
+    "requests": 29257
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1741.893750",
+    "currency": "USD",
+    "list_amount": "1741.893750",
+    "requests": 8055
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "8153.250000",
+    "currency": "USD",
+    "list_amount": "8153.250000",
+    "requests": 1553
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10672.190000",
+    "currency": "USD",
+    "list_amount": "10672.190000",
+    "requests": 19582
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6614.655000",
+    "currency": "USD",
+    "list_amount": "6614.655000",
+    "requests": 30588
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1688.696250",
+    "currency": "USD",
+    "list_amount": "1688.696250",
+    "requests": 7809
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "8079.750000",
+    "currency": "USD",
+    "list_amount": "8079.750000",
+    "requests": 1539
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10840.595000",
+    "currency": "USD",
+    "list_amount": "10840.595000",
+    "requests": 19891
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6362.723750",
+    "currency": "USD",
+    "list_amount": "6362.723750",
+    "requests": 29423
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1703.617500",
+    "currency": "USD",
+    "list_amount": "1703.617500",
+    "requests": 7878
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7838.250000",
+    "currency": "USD",
+    "list_amount": "7838.250000",
+    "requests": 1493
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10880.380000",
+    "currency": "USD",
+    "list_amount": "10880.380000",
+    "requests": 19964
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6659.635000",
+    "currency": "USD",
+    "list_amount": "6659.635000",
+    "requests": 30796
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1755.301250",
+    "currency": "USD",
+    "list_amount": "1755.301250",
+    "requests": 8117
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7680.750000",
+    "currency": "USD",
+    "list_amount": "7680.750000",
+    "requests": 1463
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10943.600000",
+    "currency": "USD",
+    "list_amount": "10943.600000",
+    "requests": 20080
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6803.873750",
+    "currency": "USD",
+    "list_amount": "6803.873750",
+    "requests": 31463
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1681.560000",
+    "currency": "USD",
+    "list_amount": "1681.560000",
+    "requests": 7776
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7518.000000",
+    "currency": "USD",
+    "list_amount": "7518.000000",
+    "requests": 1432
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10424.215000",
+    "currency": "USD",
+    "list_amount": "10424.215000",
+    "requests": 19127
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6569.026250",
+    "currency": "USD",
+    "list_amount": "6569.026250",
+    "requests": 30377
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1714.213750",
+    "currency": "USD",
+    "list_amount": "1714.213750",
+    "requests": 7927
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7770.000000",
+    "currency": "USD",
+    "list_amount": "7770.000000",
+    "requests": 1480
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "11232.450000",
+    "currency": "USD",
+    "list_amount": "11232.450000",
+    "requests": 20610
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6569.458750",
+    "currency": "USD",
+    "list_amount": "6569.458750",
+    "requests": 30379
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1790.982500",
+    "currency": "USD",
+    "list_amount": "1790.982500",
+    "requests": 8282
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7880.250000",
+    "currency": "USD",
+    "list_amount": "7880.250000",
+    "requests": 1501
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10693.990000",
+    "currency": "USD",
+    "list_amount": "10693.990000",
+    "requests": 19622
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6255.896250",
+    "currency": "USD",
+    "list_amount": "6255.896250",
+    "requests": 28929
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1648.473750",
+    "currency": "USD",
+    "list_amount": "1648.473750",
+    "requests": 7623
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7617.750000",
+    "currency": "USD",
+    "list_amount": "7617.750000",
+    "requests": 1451
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10580.085000",
+    "currency": "USD",
+    "list_amount": "10580.085000",
+    "requests": 19413
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6472.795000",
+    "currency": "USD",
+    "list_amount": "6472.795000",
+    "requests": 29932
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1661.881250",
+    "currency": "USD",
+    "list_amount": "1661.881250",
+    "requests": 7685
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7712.250000",
+    "currency": "USD",
+    "list_amount": "7712.250000",
+    "requests": 1469
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "11209.560000",
+    "currency": "USD",
+    "list_amount": "11209.560000",
+    "requests": 20568
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6811.442500",
+    "currency": "USD",
+    "list_amount": "6811.442500",
+    "requests": 31498
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1800.930000",
+    "currency": "USD",
+    "list_amount": "1800.930000",
+    "requests": 8328
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "8011.500000",
+    "currency": "USD",
+    "list_amount": "8011.500000",
+    "requests": 1526
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10534.305000",
+    "currency": "USD",
+    "list_amount": "10534.305000",
+    "requests": 19329
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6602.112500",
+    "currency": "USD",
+    "list_amount": "6602.112500",
+    "requests": 30530
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1798.118750",
+    "currency": "USD",
+    "list_amount": "1798.118750",
+    "requests": 8315
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7859.250000",
+    "currency": "USD",
+    "list_amount": "7859.250000",
+    "requests": 1497
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10848.225000",
+    "currency": "USD",
+    "list_amount": "10848.225000",
+    "requests": 19905
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6311.905000",
+    "currency": "USD",
+    "list_amount": "6311.905000",
+    "requests": 29188
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1648.473750",
+    "currency": "USD",
+    "list_amount": "1648.473750",
+    "requests": 7623
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "8106.000000",
+    "currency": "USD",
+    "list_amount": "8106.000000",
+    "requests": 1544
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10587.170000",
+    "currency": "USD",
+    "list_amount": "10587.170000",
+    "requests": 19426
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6164.638750",
+    "currency": "USD",
+    "list_amount": "6164.638750",
+    "requests": 28507
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1662.530000",
+    "currency": "USD",
+    "list_amount": "1662.530000",
+    "requests": 7688
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7801.500000",
+    "currency": "USD",
+    "list_amount": "7801.500000",
+    "requests": 1486
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "10626.410000",
+    "currency": "USD",
+    "list_amount": "10626.410000",
+    "requests": 19498
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6613.573750",
+    "currency": "USD",
+    "list_amount": "6613.573750",
+    "requests": 30583
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "19971.768750",
+    "currency": "USD",
+    "list_amount": "19971.768750",
+    "requests": 92355
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "8163.750000",
+    "currency": "USD",
+    "list_amount": "8163.750000",
+    "requests": 1555
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "11031.890000",
+    "currency": "USD",
+    "list_amount": "11031.890000",
+    "requests": 20242
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6409.217500",
+    "currency": "USD",
+    "list_amount": "6409.217500",
+    "requests": 29638
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "20370.101250",
+    "currency": "USD",
+    "list_amount": "20370.101250",
+    "requests": 94197
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7896.000000",
+    "currency": "USD",
+    "list_amount": "7896.000000",
+    "requests": 1504
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "11242.805000",
+    "currency": "USD",
+    "list_amount": "11242.805000",
+    "requests": 20629
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "6467.388750",
+    "currency": "USD",
+    "list_amount": "6467.388750",
+    "requests": 29907
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "20580.296250",
+    "currency": "USD",
+    "list_amount": "20580.296250",
+    "requests": 95169
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "7980.000000",
+    "currency": "USD",
+    "list_amount": "7980.000000",
+    "requests": 1520
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1558.700000",
+    "currency": "USD",
+    "list_amount": "1558.700000",
+    "requests": 2860
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1000.372500",
+    "currency": "USD",
+    "list_amount": "1000.372500",
+    "requests": 4626
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "3052.368750",
+    "currency": "USD",
+    "list_amount": "3052.368750",
+    "requests": 14115
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "cost": {
+    "amount": "1223.250000",
+    "currency": "USD",
+    "list_amount": "1223.250000",
+    "requests": 233
+   }
+  }
+ ],
+ "data_refreshed_at": "2026-10-18T04:00:00Z",
+ "has_more": false,
+ "next_page": null
+}

@@ -1,0 +1,9 @@
+{
+  "name": "spend-explainer",
+  "displayName": "Spend Explainer",
+  "version": "0.1.0",
+  "description": "Explain Claude spend spikes from Usage and Cost Analytics API data. Answers are checked against the data, with a rule-based fallback.",
+  "author": { "name": "Jared Chapman" },
+  "license": "MIT",
+  "keywords": ["claude", "cost", "analytics", "evals", "reliability"]
+}

@@ -1,0 +1,13 @@
+```json
+{
+  "status": "spike",
+  "primary_cause": "model_mix_shift",
+  "driver": {
+    "dimension": "workspace_id",
+    "value": "wrkspc_01SYNTHSEARCH"
+  },
+  "headline": "Daily spend went from $268.81 to $445.34 (1.66x).",
+  "explanation": "Daily spend moved from $268.81 to $445.34 between 2026-10-15 and 2026-10-17. A more expensive model took over a larger share of this workspace's cost. Driver: wrkspc_01SYNTHSEARCH.",
+  "recommended_action": "Check for a recent config or deploy that changed the model in this workspace."
+}
+```

@@ -1,0 +1,10 @@
+{
+  "status": "spike",
+  "primary_cause": "model_mix_shift",
+  "driver": "wrkspc_01SYNTHSEARCH",
+  "accepted_drivers": [
+    "wrkspc_01SYNTHSEARCH",
+    "apikey_01SYNTHSEARCHWEB",
+    "claude-opus-5-5"
+  ]
+}

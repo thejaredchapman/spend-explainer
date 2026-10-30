@@ -1,0 +1,8 @@
+{
+  "status": "spike",
+  "primary_cause": "broad_growth",
+  "driver": null,
+  "headline": "Daily spend went from $271.14 to $479.13 (1.77x).",
+  "explanation": "Daily spend moved from $271.14 to $479.13 between 2026-10-15 and 2026-10-17. Spend rose across workspaces, with no single workspace behind at least half of it.",
+  "recommended_action": "Compare against product growth before treating this as a problem."
+}

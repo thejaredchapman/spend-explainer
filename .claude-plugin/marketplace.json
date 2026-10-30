@@ -1,0 +1,12 @@
+{
+  "name": "spend-tools",
+  "description": "Spend Explainer demo package.",
+  "owner": { "name": "Jared Chapman" },
+  "plugins": [
+    {
+      "name": "spend-explainer",
+      "source": "./",
+      "description": "Explain Claude spend spikes, with a reliability check and a rule-based fallback."
+    }
+  ]
+}

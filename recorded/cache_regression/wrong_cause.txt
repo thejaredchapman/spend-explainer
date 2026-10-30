@@ -1,0 +1,11 @@
+{
+  "status": "spike",
+  "primary_cause": "volume_increase",
+  "driver": {
+    "dimension": "workspace_id",
+    "value": "wrkspc_01SYNTHSUPPORT"
+  },
+  "headline": "Daily spend went from $270.62 to $431.51 (1.59x).",
+  "explanation": "Daily spend moved from $270.62 to $431.51 between 2026-10-15 and 2026-10-17. Prompt cache hits fell, so tokens that were cheap cache reads are now billed as full input. Driver: wrkspc_01SYNTHSUPPORT.",
+  "recommended_action": "Check for a recent change to the prompt prefix, such as a timestamp or reordered tools."
+}

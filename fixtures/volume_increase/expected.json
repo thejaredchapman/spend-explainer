@@ -1,0 +1,9 @@
+{
+  "status": "spike",
+  "primary_cause": "volume_increase",
+  "driver": "apikey_01SYNTHSEARCHJOBS",
+  "accepted_drivers": [
+    "wrkspc_01SYNTHSEARCH",
+    "apikey_01SYNTHSEARCHJOBS"
+  ]
+}

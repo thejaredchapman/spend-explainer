@@ -1,0 +1,1879 @@
+{
+ "data": [
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12082200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2013700
+    },
+    "cache_read_input_tokens": 100685000,
+    "output_tokens": 6041100,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 120822000,
+    "requests": 20137
+   }
+  },
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 24336000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1521000
+    },
+    "cache_read_input_tokens": 91260000,
+    "output_tokens": 6084000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 123201000,
+    "requests": 30420
+   }
+  },
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6397600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 399850
+    },
+    "cache_read_input_tokens": 23991000,
+    "output_tokens": 1599400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32387850,
+    "requests": 7997
+   }
+  },
+  {
+   "starting_at": "2026-10-01T00:00:00Z",
+   "ending_at": "2026-10-02T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5852000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 731500
+    },
+    "cache_read_input_tokens": 29260000,
+    "output_tokens": 2194500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 38038000,
+    "requests": 1463
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11849400,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1974900
+    },
+    "cache_read_input_tokens": 98745000,
+    "output_tokens": 5924700,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 118494000,
+    "requests": 19749
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23719200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1482450
+    },
+    "cache_read_input_tokens": 88947000,
+    "output_tokens": 5929800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 120078450,
+    "requests": 29649
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6610400,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 413150
+    },
+    "cache_read_input_tokens": 24789000,
+    "output_tokens": 1652600,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 33465150,
+    "requests": 8263
+   }
+  },
+  {
+   "starting_at": "2026-10-02T00:00:00Z",
+   "ending_at": "2026-10-03T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6296000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 787000
+    },
+    "cache_read_input_tokens": 31480000,
+    "output_tokens": 2361000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 40924000,
+    "requests": 1574
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12307200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2051200
+    },
+    "cache_read_input_tokens": 102560000,
+    "output_tokens": 6153600,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 123072000,
+    "requests": 20512
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 24202400,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1512650
+    },
+    "cache_read_input_tokens": 90759000,
+    "output_tokens": 6050600,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 122524650,
+    "requests": 30253
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6412800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 400800
+    },
+    "cache_read_input_tokens": 24048000,
+    "output_tokens": 1603200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32464800,
+    "requests": 8016
+   }
+  },
+  {
+   "starting_at": "2026-10-03T00:00:00Z",
+   "ending_at": "2026-10-04T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5732000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 716500
+    },
+    "cache_read_input_tokens": 28660000,
+    "output_tokens": 2149500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 37258000,
+    "requests": 1433
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12164400,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2027400
+    },
+    "cache_read_input_tokens": 101370000,
+    "output_tokens": 6082200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 121644000,
+    "requests": 20274
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23717600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1482350
+    },
+    "cache_read_input_tokens": 88941000,
+    "output_tokens": 5929400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 120070350,
+    "requests": 29647
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6432000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 402000
+    },
+    "cache_read_input_tokens": 24120000,
+    "output_tokens": 1608000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32562000,
+    "requests": 8040
+   }
+  },
+  {
+   "starting_at": "2026-10-04T00:00:00Z",
+   "ending_at": "2026-10-05T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5784000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 723000
+    },
+    "cache_read_input_tokens": 28920000,
+    "output_tokens": 2169000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 37596000,
+    "requests": 1446
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12339600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2056600
+    },
+    "cache_read_input_tokens": 102830000,
+    "output_tokens": 6169800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 123396000,
+    "requests": 20566
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 25040800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1565050
+    },
+    "cache_read_input_tokens": 93903000,
+    "output_tokens": 6260200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 126769050,
+    "requests": 31301
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6504000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 406500
+    },
+    "cache_read_input_tokens": 24390000,
+    "output_tokens": 1626000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32926500,
+    "requests": 8130
+   }
+  },
+  {
+   "starting_at": "2026-10-05T00:00:00Z",
+   "ending_at": "2026-10-06T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5852000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 731500
+    },
+    "cache_read_input_tokens": 29260000,
+    "output_tokens": 2194500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 38038000,
+    "requests": 1463
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11952000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1992000
+    },
+    "cache_read_input_tokens": 99600000,
+    "output_tokens": 5976000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 119520000,
+    "requests": 19920
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23884800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1492800
+    },
+    "cache_read_input_tokens": 89568000,
+    "output_tokens": 5971200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 120916800,
+    "requests": 29856
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6565600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 410350
+    },
+    "cache_read_input_tokens": 24621000,
+    "output_tokens": 1641400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 33238350,
+    "requests": 8207
+   }
+  },
+  {
+   "starting_at": "2026-10-06T00:00:00Z",
+   "ending_at": "2026-10-07T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6216000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 777000
+    },
+    "cache_read_input_tokens": 31080000,
+    "output_tokens": 2331000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 40404000,
+    "requests": 1554
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11529000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1921500
+    },
+    "cache_read_input_tokens": 96075000,
+    "output_tokens": 5764500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 115290000,
+    "requests": 19215
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23065600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1441600
+    },
+    "cache_read_input_tokens": 86496000,
+    "output_tokens": 5766400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 116769600,
+    "requests": 28832
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6397600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 399850
+    },
+    "cache_read_input_tokens": 23991000,
+    "output_tokens": 1599400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32387850,
+    "requests": 7997
+   }
+  },
+  {
+   "starting_at": "2026-10-07T00:00:00Z",
+   "ending_at": "2026-10-08T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 48316000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 6039500
+    },
+    "cache_read_input_tokens": 241580000,
+    "output_tokens": 18118500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 314054000,
+    "requests": 12079
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11778600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1963100
+    },
+    "cache_read_input_tokens": 98155000,
+    "output_tokens": 5889300,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 117786000,
+    "requests": 19631
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 24845600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1552850
+    },
+    "cache_read_input_tokens": 93171000,
+    "output_tokens": 6211400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 125780850,
+    "requests": 31057
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6424800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 401550
+    },
+    "cache_read_input_tokens": 24093000,
+    "output_tokens": 1606200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32525550,
+    "requests": 8031
+   }
+  },
+  {
+   "starting_at": "2026-10-08T00:00:00Z",
+   "ending_at": "2026-10-09T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6240000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 780000
+    },
+    "cache_read_input_tokens": 31200000,
+    "output_tokens": 2340000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 40560000,
+    "requests": 1560
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12193200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2032200
+    },
+    "cache_read_input_tokens": 101610000,
+    "output_tokens": 6096600,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 121932000,
+    "requests": 20322
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23423200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1463950
+    },
+    "cache_read_input_tokens": 87837000,
+    "output_tokens": 5855800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 118579950,
+    "requests": 29279
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6703200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 418950
+    },
+    "cache_read_input_tokens": 25137000,
+    "output_tokens": 1675800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 33934950,
+    "requests": 8379
+   }
+  },
+  {
+   "starting_at": "2026-10-09T00:00:00Z",
+   "ending_at": "2026-10-10T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6032000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 754000
+    },
+    "cache_read_input_tokens": 30160000,
+    "output_tokens": 2262000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 39208000,
+    "requests": 1508
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12067200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2011200
+    },
+    "cache_read_input_tokens": 100560000,
+    "output_tokens": 6033600,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 120672000,
+    "requests": 20112
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 22989600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1436850
+    },
+    "cache_read_input_tokens": 86211000,
+    "output_tokens": 5747400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 116384850,
+    "requests": 28737
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6169600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 385600
+    },
+    "cache_read_input_tokens": 23136000,
+    "output_tokens": 1542400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 31233600,
+    "requests": 7712
+   }
+  },
+  {
+   "starting_at": "2026-10-10T00:00:00Z",
+   "ending_at": "2026-10-11T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5844000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 730500
+    },
+    "cache_read_input_tokens": 29220000,
+    "output_tokens": 2191500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 37986000,
+    "requests": 1461
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12574800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2095800
+    },
+    "cache_read_input_tokens": 104790000,
+    "output_tokens": 6287400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 125748000,
+    "requests": 20958
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23183200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1448950
+    },
+    "cache_read_input_tokens": 86937000,
+    "output_tokens": 5795800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 117364950,
+    "requests": 28979
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6141600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 383850
+    },
+    "cache_read_input_tokens": 23031000,
+    "output_tokens": 1535400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 31091850,
+    "requests": 7677
+   }
+  },
+  {
+   "starting_at": "2026-10-11T00:00:00Z",
+   "ending_at": "2026-10-12T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6256000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 782000
+    },
+    "cache_read_input_tokens": 31280000,
+    "output_tokens": 2346000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 40664000,
+    "requests": 1564
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12135000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2022500
+    },
+    "cache_read_input_tokens": 101125000,
+    "output_tokens": 6067500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 121350000,
+    "requests": 20225
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 24507200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1531700
+    },
+    "cache_read_input_tokens": 91902000,
+    "output_tokens": 6126800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 124067700,
+    "requests": 30634
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6189600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 386850
+    },
+    "cache_read_input_tokens": 23211000,
+    "output_tokens": 1547400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 31334850,
+    "requests": 7737
+   }
+  },
+  {
+   "starting_at": "2026-10-12T00:00:00Z",
+   "ending_at": "2026-10-13T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5964000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 745500
+    },
+    "cache_read_input_tokens": 29820000,
+    "output_tokens": 2236500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 38766000,
+    "requests": 1491
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11929800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1988300
+    },
+    "cache_read_input_tokens": 99415000,
+    "output_tokens": 5964900,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 119298000,
+    "requests": 19883
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 22856000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1428500
+    },
+    "cache_read_input_tokens": 85710000,
+    "output_tokens": 5714000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 115708500,
+    "requests": 28570
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6657600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 416100
+    },
+    "cache_read_input_tokens": 24966000,
+    "output_tokens": 1664400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 33704100,
+    "requests": 8322
+   }
+  },
+  {
+   "starting_at": "2026-10-13T00:00:00Z",
+   "ending_at": "2026-10-14T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6116000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 764500
+    },
+    "cache_read_input_tokens": 30580000,
+    "output_tokens": 2293500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 39754000,
+    "requests": 1529
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12192600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2032100
+    },
+    "cache_read_input_tokens": 101605000,
+    "output_tokens": 6096300,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 121926000,
+    "requests": 20321
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23283200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1455200
+    },
+    "cache_read_input_tokens": 87312000,
+    "output_tokens": 5820800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 117871200,
+    "requests": 29104
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6620800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 413800
+    },
+    "cache_read_input_tokens": 24828000,
+    "output_tokens": 1655200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 33517800,
+    "requests": 8276
+   }
+  },
+  {
+   "starting_at": "2026-10-14T00:00:00Z",
+   "ending_at": "2026-10-15T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5856000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 732000
+    },
+    "cache_read_input_tokens": 29280000,
+    "output_tokens": 2196000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 38064000,
+    "requests": 1464
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 12108000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2018000
+    },
+    "cache_read_input_tokens": 100900000,
+    "output_tokens": 6054000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 121080000,
+    "requests": 20180
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23497600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1468600
+    },
+    "cache_read_input_tokens": 88116000,
+    "output_tokens": 5874400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 118956600,
+    "requests": 29372
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6517600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 407350
+    },
+    "cache_read_input_tokens": 24441000,
+    "output_tokens": 1629400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 32995350,
+    "requests": 8147
+   }
+  },
+  {
+   "starting_at": "2026-10-15T00:00:00Z",
+   "ending_at": "2026-10-16T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6072000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 759000
+    },
+    "cache_read_input_tokens": 30360000,
+    "output_tokens": 2277000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 39468000,
+    "requests": 1518
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11960400,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1993400
+    },
+    "cache_read_input_tokens": 99670000,
+    "output_tokens": 5980200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 119604000,
+    "requests": 19934
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 25115200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1569700
+    },
+    "cache_read_input_tokens": 94182000,
+    "output_tokens": 6278800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 127145700,
+    "requests": 31394
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6241600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 390100
+    },
+    "cache_read_input_tokens": 23406000,
+    "output_tokens": 1560400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 31598100,
+    "requests": 7802
+   }
+  },
+  {
+   "starting_at": "2026-10-16T00:00:00Z",
+   "ending_at": "2026-10-17T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 5840000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 730000
+    },
+    "cache_read_input_tokens": 29200000,
+    "output_tokens": 2190000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 37960000,
+    "requests": 1460
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 11863200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1977200
+    },
+    "cache_read_input_tokens": 98860000,
+    "output_tokens": 5931600,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 118632000,
+    "requests": 19772
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 23789600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 1486850
+    },
+    "cache_read_input_tokens": 89211000,
+    "output_tokens": 5947400,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 120434850,
+    "requests": 29737
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6584000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 411500
+    },
+    "cache_read_input_tokens": 24690000,
+    "output_tokens": 1646000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 33331500,
+    "requests": 8230
+   }
+  },
+  {
+   "starting_at": "2026-10-17T00:00:00Z",
+   "ending_at": "2026-10-18T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 6244000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 780500
+    },
+    "cache_read_input_tokens": 31220000,
+    "output_tokens": 2341500,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 40586000,
+    "requests": 1561
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSUPPORT",
+    "api_key_id": "apikey_01SYNTHSUPPORTBOT",
+    "model": "claude-sonnet-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 1806600,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 301100
+    },
+    "cache_read_input_tokens": 15055000,
+    "output_tokens": 903300,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 18066000,
+    "requests": 3011
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHWEB",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 3515200,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 219700
+    },
+    "cache_read_input_tokens": 13182000,
+    "output_tokens": 878800,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 17795700,
+    "requests": 4394
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHSEARCH",
+    "api_key_id": "apikey_01SYNTHSEARCHJOBS",
+    "model": "claude-haiku-4-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 916800,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 57300
+    },
+    "cache_read_input_tokens": 3438000,
+    "output_tokens": 229200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 4641300,
+    "requests": 1146
+   }
+  },
+  {
+   "starting_at": "2026-10-18T00:00:00Z",
+   "ending_at": "2026-10-19T00:00:00Z",
+   "group": {
+    "workspace_id": "wrkspc_01SYNTHRESEARCH",
+    "api_key_id": "apikey_01SYNTHRESEARCHLAB",
+    "model": "claude-opus-5-5",
+    "actor": null,
+    "product": null,
+    "service_tier": null
+   },
+   "usage": {
+    "uncached_input_tokens": 880000,
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 110000
+    },
+    "cache_read_input_tokens": 4400000,
+    "output_tokens": 330000,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "total_tokens": 5720000,
+    "requests": 220
+   }
+  }
+ ],
+ "data_refreshed_at": "2026-10-18T04:00:00Z",
+ "has_more": false,
+ "next_page": null
+}
