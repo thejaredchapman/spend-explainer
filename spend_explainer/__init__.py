@@ -9,6 +9,13 @@ Read the modules in pipeline order:
     fallback.py   model-free report used when the check fails
     pipeline.py   wires the steps together
     client.py     optional live HTTP calls (needs keys)
+    cli.py        command line
 """
 
+from pathlib import Path
+
 VERSION = "0.1.0"
+
+DATA = Path(__file__).resolve().parent / "data"
+FIXTURES = DATA / "fixtures"
+RECORDED = DATA / "recorded"

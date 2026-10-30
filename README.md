@@ -6,12 +6,22 @@ It's built on the [Usage and Cost Analytics API](https://platform.claude.com/doc
 
 ## Try it in one minute
 
-You need Python 3.9 or newer. There is nothing to install, and you don't need an API key.
+You need Python 3.9 or newer, and you don't need an API key. It has no dependencies.
 
 ```bash
+pip install spend-explainer
+spend-explainer demo
+```
+
+Or run it from a clone, with nothing installed:
+
+```bash
+git clone https://github.com/thejaredchapman/spend-explainer.git
 cd spend-explainer
 python3 explain_spend.py demo
 ```
+
+The examples below use `python3 explain_spend.py`. If you installed with pip, use `spend-explainer` instead. The `evals/` scripts and tests are only in the clone.
 
 The demo walks through one spike, a broken prompt cache, one stage at a time. It runs a correct answer and then an answer with an invented number. The second ends like this:
 
@@ -60,7 +70,7 @@ Models are good at explaining, and code is good at being right about numbers. So
 4. **Verify.** Six checks compare the answer with the facts. These cover its format, conclusion, driver, IDs and every number.
 5. **Decide.** One failed check means the user sees the plain report instead.
 
-[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) explains every stage, the decisions behind them, and what the check can't catch. The code is meant to be read in that same order, starting at `spend_explainer/analytics.py`.
+[docs/ARCHITECTURE.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/ARCHITECTURE.md) explains every stage, the decisions behind them, and what the check can't catch. The code is meant to be read in that same order, starting at `spend_explainer/analytics.py`.
 
 ## Commands
 
@@ -102,13 +112,25 @@ A request can cover at most 31 days, and you need at least 6 complete days. Data
 ## Use it as a Claude Code skill
 
 ```bash
-claude plugin marketplace add /full/path/to/spend-explainer
+claude plugin marketplace add thejaredchapman/spend-explainer
 claude plugin install spend-explainer@spend-tools
 ```
 
 Start a new session and ask "why did my Claude spend go up?". Claude itself writes the answer, so no API key is needed for the synthetic scenarios. The same check still decides what you see.
 
 On default permissions, Claude Code asks once whether to use the skill. After that, the skill's commands run without further prompts.
+
+## What it runs and sends
+
+| Action | What happens |
+|---|---|
+| `demo`, `analyze`, `prompt`, `verify`, `project` | Run locally, read local files, and send nothing |
+| `run` | Sends the prompt to `api.anthropic.com` with `ANTHROPIC_API_KEY`. The prompt holds spend figures, workspace IDs, API key IDs and model names |
+| `fetch` | Reads usage and cost data from `api.anthropic.com` with `ANTHROPIC_ADMIN_API_KEY`, and writes it to the folder you choose |
+| The skill | Runs `python3` on the commands above, and writes your answer to a temporary file. Claude reads the prompt, so the data goes wherever your Claude session runs |
+| `evals/` scripts (clone only) | Send the synthetic prompts to Claude Code or to your local EvalForge server |
+
+It stores no keys, collects no telemetry, and runs no code from the network. The skill needs to run `python3` on your machine, and it has only been tested in Claude Code.
 
 ## Evals
 
@@ -125,7 +147,7 @@ python3 evals/run_claude_cli.py
 python3 evals/score_results.py
 ```
 
-This cost about $0.13 to $0.39 per run in testing. For the judged rubric and non-Claude models, use [EvalForge Lite](https://github.com/thejaredchapman/evalforge-lite), which needs an OpenRouter key. [docs/EVALS.md](docs/EVALS.md) covers both, and the latest results.
+This cost about $0.13 to $0.39 per run in testing. For the judged rubric and non-Claude models, use [EvalForge Lite](https://github.com/thejaredchapman/evalforge-lite), which needs an OpenRouter key. [docs/EVALS.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/EVALS.md) covers both, and the latest results.
 
 ## Verification status
 
@@ -135,9 +157,9 @@ This cost about $0.13 to $0.39 per run in testing. For the judged rubric and non
 | Fixture format | Matches the API reference's documented fields, but hasn't been compared with a real response |
 | Eval cases, result scoring | Run through EvalForge's real `/api/run` with models mocked |
 | `fetch` and `run` | Tested with mocked HTTP only, **never against the live APIs** |
-| Conclusions on synthetic data | 36 of 36 real answers correct across Haiku 5.5, Sonnet 5.5 and Opus 5.5. See [docs/EVALS.md](docs/EVALS.md) |
+| Conclusions on synthetic data | 36 of 36 real answers correct across Haiku 5.5, Sonnet 5.5 and Opus 5.5. See [docs/EVALS.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/EVALS.md) |
 | Verifier strictness | Caught 35 of 35 wrong figures planted in real answers |
-| EvalForge live run | Ran through OpenRouter on 3 models. Opus passed 6 of 6. Sonnet 4.5 and Haiku 4.5 passed 0 of 6, because they wrapped their JSON in fences. See [docs/EVALS.md](docs/EVALS.md) |
+| EvalForge live run | Ran through OpenRouter on 3 models. Opus passed 6 of 6. Sonnet 4.5 and Haiku 4.5 passed 0 of 6, because they wrapped their JSON in fences. See [docs/EVALS.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/EVALS.md) |
 | Reasoning and advice quality | Rubric judge scored 16 of 18 answers 5 out of 5 and 2 answers 4 out of 5, but it has not judged the Claude 5.5 answers |
 | Plugin manifest | Passes `claude plugin validate .` |
 | Skill | Tried in headless and interactive Claude Code sessions on synthetic data. It triggered without being named, and showed the fallback for a planted bad number. On default permissions the only prompt was the skill consent |
@@ -150,19 +172,19 @@ This cost about $0.13 to $0.39 per run in testing. For the judged rubric and non
 | `Need at least 6 complete days` | Fetch a longer date range, or pass a smaller `--window-days` |
 | `ANTHROPIC_API_KEY is not set` | Export the key, or use `demo`, which doesn't need one |
 | `HTTP 401` or `403` from `fetch` | Check that you're using an Admin API key, not a regular API key |
-| `Could not reach EvalForge` | Start EvalForge first. See [docs/EVALS.md](docs/EVALS.md) |
-| Every answer shows `json` failed | The model is wrapping its JSON in fences. Run `prompt`, then see [docs/EVALS.md](docs/EVALS.md) |
+| `Could not reach EvalForge` | Start EvalForge first. See [docs/EVALS.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/EVALS.md) |
+| Every answer shows `json` failed | The model is wrapping its JSON in fences. Run `prompt`, then see [docs/EVALS.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/EVALS.md) |
 
 ## Project layout
 
 ```text
-explain_spend.py        command line
+explain_spend.py        runs the command line without installing
 spend_explainer/        the pipeline; start with __init__.py
+  data/fixtures/        synthetic API responses, one folder per scenario
+  data/recorded/        hand-made stand-in answers
 skills/explain-spend/   the Claude Code skill
-fixtures/               synthetic API responses, one folder per scenario
-recorded/               hand-made stand-in answers
 evals/                  EvalForge test cases and scoring
-scripts/make_fixtures.py  regenerates fixtures/ and recorded/
+scripts/make_fixtures.py  regenerates the data folders
 tests/                  unit tests, no network
 docs/                   architecture and eval guides
 ```

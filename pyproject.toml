@@ -1,0 +1,39 @@
+# Packaging for PyPI (`spend-explainer`, command: `spend-explainer`). There are no
+# dependencies. The Claude Code plugin does not use this package: it runs the same
+# code from its own folder through explain_spend.py.
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spend-explainer"
+version = "0.1.0"
+description = "Explain Claude API spend spikes, check every number against the data, and fall back to a rule-based report."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Jared Chapman" }]
+keywords = ["claude", "anthropic", "cost", "analytics", "llm", "evals", "reliability"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/thejaredchapman/spend-explainer"
+Repository = "https://github.com/thejaredchapman/spend-explainer"
+Documentation = "https://github.com/thejaredchapman/spend-explainer/blob/main/docs/ARCHITECTURE.md"
+
+[project.scripts]
+spend-explainer = "spend_explainer.cli:main"
+
+[tool.setuptools]
+packages = ["spend_explainer"]
+
+[tool.setuptools.package-data]
+spend_explainer = ["data/**/*"]

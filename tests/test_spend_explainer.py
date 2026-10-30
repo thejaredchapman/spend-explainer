@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(ROOT / "evals"))
 
-from spend_explainer import client  # noqa: E402
+from spend_explainer import FIXTURES, RECORDED, VERSION, client  # noqa: E402
 from spend_explainer.analytics import cents_to_usd, load_dataset, parse_dataset  # noqa: E402
 from spend_explainer.analyze import InsufficientData, analyze  # noqa: E402
 from spend_explainer.pipeline import SOURCE_FALLBACK, SOURCE_MODEL, decide  # noqa: E402
@@ -24,11 +24,11 @@ SCENARIOS = ("quiet", "one_day_outlier", "model_mix_shift", "cache_regression", 
 
 
 def fixture(name):
-    return analyze(load_dataset(ROOT / "fixtures" / name))
+    return analyze(load_dataset(FIXTURES / name))
 
 
 def recorded(name, kind):
-    return (ROOT / "recorded" / name / f"{kind}.txt").read_text()
+    return (RECORDED / name / f"{kind}.txt").read_text()
 
 
 def good_answer(name, **changes):
@@ -43,6 +43,18 @@ def row(day, amount="100.000000", model="claude-opus-5-5"):
 
 def _next(day):
     return f"{day[:8]}{int(day[8:]) + 1:02d}T00:00:00Z"
+
+
+class Packaging(unittest.TestCase):
+    def test_version_is_the_same_everywhere(self):
+        plugin = json.loads((ROOT / ".claude-plugin" / "plugin.json").read_text())
+        pyproject = (ROOT / "pyproject.toml").read_text()
+        self.assertEqual(plugin["version"], VERSION)
+        self.assertIn(f'version = "{VERSION}"', pyproject)
+
+    def test_data_ships_inside_the_package(self):
+        self.assertTrue((FIXTURES / "quiet" / "usage.json").exists())
+        self.assertTrue((RECORDED / "quiet" / "good.txt").exists())
 
 
 class AnalyticsParsing(unittest.TestCase):
@@ -76,7 +88,7 @@ class SpikeDetection(unittest.TestCase):
     def test_each_scenario_reaches_its_expected_verdict(self):
         for name in SCENARIOS:
             with self.subTest(name):
-                expected = json.loads((ROOT / "fixtures" / name / "expected.json").read_text())
+                expected = json.loads((FIXTURES / name / "expected.json").read_text())
                 verdict = fixture(name).verdict
                 self.assertEqual(verdict.status, expected["status"])
                 self.assertEqual(verdict.primary_cause, expected["primary_cause"])
@@ -336,12 +348,12 @@ class CommandLine(unittest.TestCase):
         self.assertIn("Unexpected outcomes: 0", result.stdout)
 
     def test_verify_exit_code_reports_the_outcome(self):
-        folder = ROOT / "recorded" / "quiet"
+        folder = RECORDED / "quiet"
         self.assertEqual(self.run_cli("verify", "--scenario", "quiet", "--answer", str(folder / "good.txt")).returncode, 0)
         self.assertEqual(self.run_cli("verify", "--scenario", "quiet", "--answer", str(folder / "wrong_cause.txt")).returncode, 1)
 
     def test_verify_summary_hides_rejected_values(self):
-        answer = str(ROOT / "recorded" / "cache_regression" / "wrong_number.txt")
+        answer = str(RECORDED / "cache_regression" / "wrong_number.txt")
         args = ("verify", "--scenario", "cache_regression", "--answer", answer)
         self.assertIn("9999", self.run_cli(*args).stdout)
         summary = self.run_cli(*args, "--summary")

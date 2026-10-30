@@ -53,7 +53,7 @@ Models are good at explaining. Code is good at being right about numbers. So eac
 | `fallback.py` | Builds the model-free report | `analyze` |
 | `pipeline.py` | Chooses which output to show | `verify`, `fallback` |
 | `client.py` | Makes all HTTP calls | Nothing |
-| `explain_spend.py` | Command line | All of the above |
+| `cli.py` | Command line, which `explain_spend.py` wraps | All of the above |
 
 Only `client.py` touches the network, which is why everything else runs without a key.
 

@@ -15,9 +15,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "evals"))
 
 from build_cases import build_cases  # noqa: E402
+from spend_explainer import RECORDED  # noqa: E402
 
 # EvalForge's rules read the conclusion, not the prose, so these two defects
 # get past them. This is why score_results.py also runs the real verifier.
@@ -45,7 +47,7 @@ def main() -> int:
     mistakes = 0
     print(f"{'scenario':<18}{'answer':<15}rule checks")
     for case in build_cases():
-        for path in sorted((ROOT / "recorded" / case["name"]).glob("*.txt")):
+        for path in sorted((RECORDED / case["name"]).glob("*.txt")):
             passed = all(run_check(check, path.read_text()) for check in case["checks"])
             expected = path.stem == "good" or path.stem in CAUGHT_ONLY_BY_VERIFIER
             mistakes += passed != expected

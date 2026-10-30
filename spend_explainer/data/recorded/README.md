@@ -10,4 +10,4 @@
 | `invented_id.txt` | Correct, except for an API key that does not exist | `ids` |
 | `fenced_json.txt` | A correct answer wrapped in a Markdown fence | `json` |
 
-Real model results come from the live eval. See [docs/EVALS.md](../docs/EVALS.md).
+Real model results come from the live eval. See [docs/EVALS.md](https://github.com/thejaredchapman/spend-explainer/blob/main/docs/EVALS.md).

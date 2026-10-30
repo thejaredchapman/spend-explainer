@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from spend_explainer import FIXTURES  # noqa: E402
 from spend_explainer.analytics import load_dataset  # noqa: E402
 from spend_explainer.analyze import analyze  # noqa: E402
 from spend_explainer.prompt import build_prompt  # noqa: E402
@@ -69,7 +70,7 @@ def checks_for(verdict) -> list:
 def build_cases() -> list:
     cases = []
     for name, rubric in RUBRICS.items():
-        analysis = analyze(load_dataset(ROOT / "fixtures" / name))
+        analysis = analyze(load_dataset(FIXTURES / name))
         cases.append({
             "name": name,
             "prompt": build_prompt(analysis.facts),

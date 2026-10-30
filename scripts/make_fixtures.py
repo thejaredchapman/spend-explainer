@@ -21,6 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from spend_explainer import FIXTURES, RECORDED  # noqa: E402
 from spend_explainer.analytics import load_dataset  # noqa: E402
 from spend_explainer.analyze import analyze  # noqa: E402
 from spend_explainer.fallback import build_report  # noqa: E402
@@ -247,10 +248,10 @@ def write_recorded(directory: Path, analysis) -> None:
 
 def main() -> None:
     for name, scenario in SCENARIOS.items():
-        fixture = ROOT / "fixtures" / name
+        fixture = FIXTURES / name
         write_fixture(fixture, scenario)
         analysis = analyze(load_dataset(fixture))
-        write_recorded(ROOT / "recorded" / name, analysis)
+        write_recorded(RECORDED / name, analysis)
         (fixture / "expected.json").write_text(json.dumps({
             "status": analysis.verdict.status,
             "primary_cause": analysis.verdict.primary_cause,
